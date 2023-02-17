@@ -13,10 +13,12 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: #030305;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 /* Header */
@@ -47,4 +49,50 @@ body {
 }
 .menu-item a:hover {
   border-bottom: 2px solid #030305;
+}
+
+/* Top Section */
+
+.main {
+  background-image: url("/images/background.png");
+  background-position: center;
+  background-size: cover;
+  padding: 6.56em 0 9.63em;
+  opacity: 0.85;
+}
+.main-info {
+  max-width: 855px;
+}
+.main-title {
+  font-size: 5rem;
+  line-height: 1.1;
+  font-weight: bold;
+  text-shadow: 0 0 2px #E5E5E5;
+}
+.main-text {
+  font-size: 1rem;
+  line-height: 1.3;
+  margin: 2.5em 0;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.button {
+  background: #030305;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 1.25em 3.31em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.button:hover,
+.button:focus {
+  background-color: #1f1f34;
+}
+.button:active {
+  background-color: #030305;
 }
