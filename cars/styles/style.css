@@ -70,7 +70,7 @@ body {
 /* Top Section */
 
 .main {
-  background-image: url("/images/background.png");
+  background-image: url("images/background.png");
   background-position: center;
   background-size: cover;
   padding: 6.56em 0 9.63em;
