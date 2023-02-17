@@ -15,6 +15,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #030305;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .container {
   max-width: 1200px;
@@ -22,17 +25,25 @@ body {
   padding: 0 1em;
 }
 
-/* Header */
+/* Header & Footer */
 
 .header {
   border-bottom: 1px solid #E5E5E5;
   background: #FFFFFF;
-  padding: 1.67em 0;
   position: sticky;
   top: 0;
   z-index: 1;
 }
-.header .container {
+.header,
+.footer {
+  padding: 1.67em 0;
+}
+.footer {
+  border-top: 1px solid #E5E5E5;
+  margin-top: auto;
+}
+.header .container,
+.footer .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
